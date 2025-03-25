@@ -12,7 +12,7 @@ const MeetingTypeList = () => {
   >(undefined);
 
   const createMeeting = () => {
-  
+    
   }
 
   return (
