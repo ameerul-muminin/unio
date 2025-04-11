@@ -35,7 +35,7 @@ export default function RootLayout({
         }}
       >
         <body className={`${inter.className} bg-dark-2`}>{children}</body>
-        <Toaster />
+        <Toaster richColors position="top-center" expand={false}/>
       </ClerkProvider>
     </html>
   );
